@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <div class="form">
+      <div class="inputBg">
+        <h1>USER INFO</h1>
+        <form id="profileForm">
+          <div class="inputContainer">
+            <input
+              type="text"
+              name="fullName"
+              id="name"
+              placeholder=" "
+              required
+            />
+            <label id="labelName">FULL NAME</label>
+            <input type="text" name="age" id="id-Age" placeholder="" required />
+            <label id="labelAge">AGE</label>
+            <input
+              type="tel"
+              name="celNumber"
+              id="id-Number"
+              placeholder="0912-345-6789"
+              required
+            />
+            <label id="labelNum">PHONE NUMBER</label>
+            <input
+              type="email"
+              name="email"
+              id="id-email"
+              placeholder=""
+              required
+            />
+            <label id="labelemail">EMAIL</label>
+            <input
+              type="text"
+              name="address"
+              id="id-address"
+              placeholder=""
+              required
+            />
+            <label id="labeladdress">ADDRESS</label>
+            <textarea
+              name="description"
+              id="id-description"
+              rows="5"
+              placeholder=" "
+              required
+            ></textarea>
+            <label id="labelDescription">DESCRIPTION</label><br /><br />
+            <input type="file" id="imageUpload" accept="image/*" required />
+            <label for="imageUpload" class="upload-label">📁 Choose Image</label
+            ><br />
+            <button>GENERATE</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="profile.js"></script>
+  </body>
+</html>
