@@ -340,12 +340,15 @@ span {
 }
 /* ===== RESPONSIVE STYLES ===== */
 @media (max-width: 575.98px) {
+  .inputBg {
+    width: 80%;
+  }
   .outer {
     display: flex;
     flex-direction: column; /* stack vertically */
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     height: auto; /* let height adjust */
     padding: 10px;
   }
